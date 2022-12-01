@@ -17,7 +17,7 @@ class Cart(models.Model):
 
 
     # Wanted to make this field invisible but found only XML file
-    cart_total_products_prices = fields.Many2one('cart.item','total_sum' , readonly=True)
+    cart_total_products_prices = fields.Many2one('cart.item','total_sum' , readonly=True,string="We hide it")
 
 
 
